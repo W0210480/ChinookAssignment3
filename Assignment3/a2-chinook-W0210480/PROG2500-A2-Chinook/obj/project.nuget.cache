@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTh+fvSWwOPAbKR/KlK4WdoJx/mz089JUFekXCAMyOlWCk0/bz0hIv2OhgBbGolBfVWPhTj8C/jj3aMPzAst7Q==",
+  "dgSpecHash": "uJIPQ1qu06yF/c2F1YY1htg8+7JUOiCF21RWNjTWliZo/Z66i0wVrOWLnUlg7vFY0TcNfLR5xaN6T4yACDI/AA==",
   "success": true,
-  "projectFilePath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
+  "projectFilePath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RyanG\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\RyanG\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

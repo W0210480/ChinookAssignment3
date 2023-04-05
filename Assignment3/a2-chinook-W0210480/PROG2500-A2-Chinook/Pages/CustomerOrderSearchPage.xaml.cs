@@ -44,7 +44,7 @@ namespace PROG2500_A2_Chinook.Pages
         {
             var query =
                 from customer in _context.Customers
-                where customer.LastName.Contains(txtSearch.Text)
+                where customer.LastName.Contains(txtSearch.Text) 
                 select customer;
 
             categoriesListView.ItemsSource = query.ToList();

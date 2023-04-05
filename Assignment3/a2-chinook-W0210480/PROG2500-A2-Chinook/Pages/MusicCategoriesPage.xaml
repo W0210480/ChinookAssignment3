@@ -33,27 +33,28 @@
         
         <ListView x:Name="categoriesListView"
                   ScrollViewer.VerticalScrollBarVisibility="Visible"
-                  ScrollViewer.CanContentScroll="True">
+                  ScrollViewer.CanContentScroll="True"
+                  Height="500">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="{Binding Index}" Style="{StaticResource textBlockTitle}" Width="25"/>
                         <TextBlock Text="{Binding artistsCount}" Width="50"/>
                         <Expander Header="View Artist(s)" FontSize="16">
-                            <ListView ItemsSource="{Binding artists}">
+                            <ListView ItemsSource="{Binding artists}" Height="500">
                                 <ListView.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal">
                                             <TextBlock Text="{Binding ArtistId}" Style="{StaticResource textBlockMed}" Width="40"/>
                                             <TextBlock Text="{Binding Name}" />
                                             <Expander Header="View Album(s)" FontSize="12">
-                                                <ListView ItemsSource="{Binding Albums}">
+                                                <ListView ItemsSource="{Binding Albums}" Height="500">
                                                     <ListView.ItemTemplate>
                                                         <DataTemplate>
                                                             <StackPanel Orientation="Horizontal">
                                                                 <TextBlock Text="{Binding Title}" Style="{StaticResource textBlockTextSmall}"/>
                                                                 <Expander Header="View Track(s)">
-                                                                    <ListView ItemsSource="{Binding Tracks}">
+                                                                    <ListView ItemsSource="{Binding Tracks}" Height="500">
                                                                         <ListView.ItemTemplate>
                                                                             <DataTemplate>
                                                                                 <StackPanel Orientation="Horizontal">

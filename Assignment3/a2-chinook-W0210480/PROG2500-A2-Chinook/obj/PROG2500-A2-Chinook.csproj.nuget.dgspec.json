@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj": {}
+    "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj": {}
   },
   "projects": {
-    "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj": {
+    "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
+        "projectUniqueName": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
         "projectName": "PROG2500-A2-Chinook",
-        "projectPath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
+        "projectPath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\PROG2500-A2-Chinook.csproj",
         "packagesPath": "C:\\Users\\RyanG\\.nuget\\packages\\",
-        "outputPath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\obj\\",
+        "outputPath": "D:\\Winter2023\\PROG2500\\Week12\\Class2\\ChinookAssignment3\\Assignment3\\a2-chinook-W0210480\\PROG2500-A2-Chinook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RyanG\\AppData\\Roaming\\NuGet\\NuGet.Config",

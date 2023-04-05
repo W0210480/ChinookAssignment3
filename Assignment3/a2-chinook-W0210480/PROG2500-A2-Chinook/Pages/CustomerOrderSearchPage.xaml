@@ -33,25 +33,26 @@
 
         <ListView x:Name="categoriesListView"
                   ScrollViewer.VerticalScrollBarVisibility="Visible"
-                  ScrollViewer.CanContentScroll="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding FormattedInfoBlock}" Style="{StaticResource textBlockMed}" Width="300"/>
-                        <Expander Header="View Invoice(s)" FontSize="16">
-                            <ListView ItemsSource="{Binding Invoices}">
-                                <ListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="{Binding FormattedTotal}"/>
-                                        </StackPanel>
-                                    </DataTemplate>
-                                </ListView.ItemTemplate>
-                            </ListView>
-                        </Expander>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                  ScrollViewer.CanContentScroll="True"
+                      Height="550">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding FormattedInfoBlock}" Style="{StaticResource textBlockMed}" Width="300"/>
+                            <Expander Header="View Invoice(s)" FontSize="16">
+                                <ListView ItemsSource="{Binding Invoices}">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding FormattedTotal}"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </Expander>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
     </StackPanel>
 </Page>
